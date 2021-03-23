@@ -96,9 +96,11 @@
     top: 50px;
     right: 0;
     width: 100%;
+    transition: all ease 0.4s;
   }
   & ul.show {
     display: flex;
+    transition: all ease 0.4s;
   }
 
   & .burgerIcon {

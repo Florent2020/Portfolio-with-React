@@ -10,17 +10,16 @@ import About from "../about/About";
 import Projects from "../projects/Projects";
 import Contact from "../contact/Contact";
 import { Container, Row } from "react-bootstrap";
-// import BurgerIcon from "./BurgerIcon";
 import Nav from "./Nav";
 
 function Navbar() {
     return (
-        <Router>
+        <Router basename={"/portfolio"}>
             <div>
                 <div id="header">
                     <Container>
                         <Row>
-                            <div to="/" className="logo">
+                            <div exact to="/" className="logo mr-auto">
                                 <img
                                     width={70}
                                     height={30}

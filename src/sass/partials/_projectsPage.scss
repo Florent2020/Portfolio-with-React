@@ -1,0 +1,45 @@
+#projects {
+    padding: 120px 0 100px;
+    & .row {
+        padding: 40px 0;
+        border-bottom: 2px solid $colour-primary;
+        margin: 5px;
+    }
+    & .row:last-of-type {
+        border-bottom: none;
+    }
+    & .col-md-1,
+    .col-md-5,
+    .col-md-6 {
+        padding: 0;
+    }
+    & img {
+        height: 300px;
+        width: 100%;
+        box-shadow: 0px 0px 20px #fff;
+        border-radius: 20px !important;
+        opacity: 0.8;
+    }
+    & h2 {
+        margin: 40px 0 30px;
+        font-size: 30px;
+    }
+    & p {
+        max-width: 500px;
+    }
+    & p:last-of-type {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: $tablet) {
+    #projects {
+        padding-top: 150px;
+        & h2 {
+            font-size: 40px;
+        }
+        & img {
+            height: 400px;
+        }
+    }
+}

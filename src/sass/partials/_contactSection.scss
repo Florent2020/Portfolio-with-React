@@ -1,0 +1,25 @@
+.contact--section {
+    padding: 50px 0;
+    margin-bottom: 80px;
+    & .rounded {
+        height: auto;
+        opacity: 0.6;
+    }
+    & h2 {
+        margin: 20px 0 30px;
+    }
+    & h4 {
+        font-family: $font-family-base;
+    }
+    & p {
+        max-width: 370px;
+    }
+}
+
+@media only screen and (min-width: $tablet) {
+    .contact--section {
+        & .rounded {
+            height: 280px;
+        }
+    }
+}

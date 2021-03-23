@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $colour-primary;
+  background-color: #000;
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+// @media only screen and (min-width: $tablet) {
+//   .container {
+//     padding-left: 15px;
+//     padding-right: 15px;
+//   }
+// }

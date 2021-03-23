@@ -1,0 +1,219 @@
+/* Header */
+
+// .bg-light {
+//     background-color: #17516D !important;
+//     padding: 20px 30px;
+//     position: fixed;
+//     width: 100%;
+//     z-index: 999;
+//     box-shadow: 0px 0px 13px #000;
+// }
+
+// .navbar-light .navbar-toggler-icon {
+//     color: $colour-primary !important;
+// }
+
+// .navbar-light .navbar-toggler {
+//     color: $colour-primary !important;
+//     border-color: $colour-primary !important;
+//     border-radius: 0;
+//     padding: 2px 7px;
+//     opacity: 0.5;
+// }
+
+// .navbar-light .navbar-nav {
+//     margin-top: 15px;
+// }
+
+// .navbar-light .navbar-nav .nav-item {
+//     margin: 10px 0;
+// }
+
+// .navbar-light .navbar-nav .nav-link {
+//     text-transform: uppercase;
+//     font-size: 14px;
+//     padding-left: 5px;
+//     padding-right: 5px;
+//     font-weight: 600;
+//     margin: 0;
+//     color: $colour-primary;
+//     letter-spacing: 0.9px;
+//     border-bottom-right-radius: 10px;
+//     border-bottom: 2px solid #000;
+//     border-right: 2px solid #000;
+// }
+
+// .navbar-light .navbar-nav .nav-link.active {
+//     color: $colour-primary;
+// }
+
+// @media only screen and (min-width: $tablet) {
+//     .bg-light {
+//         padding: 20px 0;
+//     }
+//     .navbar-light .navbar-nav {
+//         margin-top: 0;
+//     }
+//     .navbar-light .navbar-nav .nav-item {
+//         margin: 0;
+//     }
+//     .navbar-light .navbar-nav .nav-link {
+//         margin-left: 25px;
+//         border-bottom: none;
+//         border-right: none;
+//         padding: 8px 15px;
+//     }
+//     .navbar-light .navbar-nav .nav-link.active {
+//         background: #000;
+//         border-radius: 3px;
+//     }
+// }
+
+#header {
+  background-color: $colour-secondary;
+  padding: 20px 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 0px 13px #000;
+  & .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  & .logo {
+    cursor: pointer;
+    z-index: 9999;
+  }
+  & ul {
+    display: none;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 20px 30px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: $colour-secondary;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 100%;
+  }
+  & ul.show {
+    display: flex;
+  }
+
+  & .burgerIcon {
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 25px;
+    right: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    z-index: 999;
+    & div {
+      width: 25px;
+      height: 3px;
+      background-color: $colour-primary;
+      //   background-color: ${({ open })  => open ? "#ccc" : "$colour-primary" };
+      border-radius: 10px;
+      transition: all ease 0.4s;
+    }
+    .open:nth-child(1) {
+      transform: rotate(0) translateY(0);
+      opacity: 1;
+    }
+    .open:nth-child(2) {
+      opacity: 1;
+    }
+    .open:nth-child(3) {
+      transform: rotate(0) translateY(0);
+      opacity: 1;
+    }
+    .close:nth-child(1) {
+      transform: rotate(45deg) translateY(9.5px);
+      margin-left: 6px;
+      opacity: 1;
+    }
+    .close:nth-child(2) {
+      opacity: 0;
+      margin-left: 6px;
+    }
+    .close:nth-child(3) {
+      transform: rotate(-45deg) translateY(-9px);
+      margin-left: 6px;
+      opacity: 1;
+    }
+  }
+
+  & li {
+    padding: 10px 0;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    margin: 7px 0;
+  }
+
+  & a {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    margin: 0;
+    color: $colour-primary;
+    letter-spacing: 0.9px;
+    &.active {
+      background: #000;
+      border-radius: 3px;
+      padding: 5px;
+    }
+  }
+}
+
+@media only screen and (min-width: $tablet) {
+  #header {
+    padding: 20px 0;
+    & .container {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    & .burgerIcon {
+      display: none;
+    }
+    & ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+      list-style: none;
+      background-color: transparent;
+      position: relative;
+      height: auto;
+      width: auto;
+      top: 0;
+      padding: 0;
+    }
+    & li {
+      padding: 0;
+      width: 100%;
+      border-bottom: none;
+      border-right: none;
+      margin: 0;
+    }
+    & a {
+      margin-left: 25px;
+      border-bottom: none;
+      border-right: none;
+      padding: 10px 15px;
+      &.active {
+        background: #000;
+        border-radius: 3px;
+        padding: 10px 15px;
+      }
+    }
+  }
+}

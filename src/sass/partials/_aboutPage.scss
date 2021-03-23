@@ -1,0 +1,19 @@
+#about {
+    padding: 130px 0 100px;
+    & .rounded {
+        border-radius: 30px !important;
+    }
+    & h1 {
+        font-size: 35px;
+        margin: 30px 0;
+    }
+    & p {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: $tablet) {
+    #about {
+        padding-top: 170px;
+    }
+}

@@ -1,0 +1,23 @@
+$colour-primary: #49d7a3;
+$colour-secondary: #17516d;
+$font-family-base: "Raleway",
+sans-serif;
+$font-heading: "Redressed",
+cursive;
+$tablet: 768px;
+// bootstrap
+$gray-100: $colour-secondary;
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/typography";
+@import "./partials/layout";
+@import "./partials/buttons";
+@import "./partials/footer";
+@import "./partials/header";
+@import "./partials/jumbotron";
+@import "./partials/profile";
+@import "./partials/projectsSection";
+@import "./partials/contactSection";
+@import "./partials/aboutPage";
+@import "./partials/contactPage";
+@import "./partials/forms";
+@import "./partials/projectsPage";

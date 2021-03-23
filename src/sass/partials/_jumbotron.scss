@@ -1,0 +1,81 @@
+.jumbotron {
+    background-image: url(../../images/portfolio_img.png);
+    background-position: bottom;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    & .container {
+        padding-left: 15px;
+    }
+    & h1 {
+        color: #fff;
+        line-height: 0.9;
+        font-family: $font-family-base;
+        position: relative;
+        animation: first;
+        animation-duration: 1.5s;
+    }
+    & h3 {
+        color: $colour-primary;
+        margin-bottom: 0;
+        // line-height: 0.7;
+        position: relative;
+        animation: second;
+        animation-duration: 1.5s;
+        font-size: 25px !important;
+    }
+    & p {
+        color: #fff;
+        line-height: 0.6;
+        font-size: 15px;
+        position: relative;
+        animation: first;
+        animation-duration: 1.5s;
+    }
+    & button {
+        position: relative;
+        animation: second;
+        animation-duration: 1.5s;
+        font-size: 14px !important;
+        margin-top: 10px;
+    }
+}
+
+@keyframes first {
+    from {
+        left: -350px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes second {
+    from {
+        left: -450px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@media only screen and (min-width: $tablet) {
+    .jumbotron {
+        height: 550px;
+        & h1 {
+            font-size: 70px;
+        }
+        & h3 {
+            font-size: 35px !important;
+        }
+        & p {
+            font-size: 18px !important;
+        }
+        & button {
+            font-size: 17px !important;
+        }
+    }
+}

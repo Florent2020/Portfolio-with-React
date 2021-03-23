@@ -1,0 +1,31 @@
+.form-control {
+    height: 45px !important;
+    border: 2px solid $colour-primary;
+    border-radius: 0;
+    background-color: transparent;
+    color: $colour-primary;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    & .btn.btn-primary {
+        margin-top: 0 !important;
+    }
+}
+
+.form-control::placeholder {
+    color: $colour-primary;
+    font-weight: 400;
+}
+
+textarea.form-control {
+    height: auto !important;
+}
+
+.form-error {
+    display: none;
+    color: #ec3636 !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 6px;
+    padding-left: 3px;
+}

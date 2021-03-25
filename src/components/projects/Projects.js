@@ -106,8 +106,13 @@ function Projects() {
               <Col md={6}>
                 <h2>4. SpaceX</h2>
                 <p>
-                  Design and code for project exam in Front-end development at
-                  Noroff - 1st semester!
+                  The "SpaceX" project is the final exam of the first year,
+                  in my studies at Noroff College in Norway, majoring in
+                  Front-end Development!
+                </p>
+                <p>
+                  This project is realized with HTML, CSS & JAVASCRIPT programming
+                  languages, while in terms of design it is done with Adobe XD.
                 </p>
                 <p>
                   The project was an assignment from the course Interaction
@@ -116,16 +121,12 @@ function Projects() {
                   program Adobe XD.
                 </p>
                 <p>
-                  The project was an assignment from the course Interaction
-                  Design of the second semester, the first year, and was
-                  realized with HTML and CSS programs, as well as the design
-                  program Adobe XD.
+                  In this project are also used APIs of the prestigious company SpaceX,
+                  which through JavaScript have become possible in the dynamic
+                  realization of the project!
                 </p>
                 <p>
-                  The project was an assignment from the course Interaction
-                  Design of the second semester, the first year, and was
-                  realized with HTML and CSS programs, as well as the design
-                  program Adobe XD.
+                  This project is carried out following the programming rules called WCAG standards.
                 </p>
                 <Button variant="primary">
                   <a href="http://runashost.com/SpaceX_Project/"></a> Visit the
@@ -141,28 +142,16 @@ function Projects() {
               <Col md={6}>
                 <h2>5. The YAY Company</h2>
                 <p>
-                  The project was an assignment from the course Interaction
-                  Design of the second semester, the first year, and was
-                  realized with HTML and CSS programs, as well as the design
-                  program Adobe XD.
+                  The project "The YAY Company" is the task of the exam "CSS Frameworks",
+                  task of the third semester, the second year of studies.
                 </p>
                 <p>
-                  The project was an assignment from the course Interaction
-                  Design of the second semester, the first year, and was
-                  realized with HTML and CSS programs, as well as the design
-                  program Adobe XD.
+                  This project was realized with HTML, SASS & Bootstrap languages,
+                  while we had the design from school.
                 </p>
                 <p>
-                  The project was an assignment from the course Interaction
-                  Design of the second semester, the first year, and was
-                  realized with HTML and CSS programs, as well as the design
-                  program Adobe XD.
-                </p>
-                <p>
-                  The project was an assignment from the course Interaction
-                  Design of the second semester, the first year, and was
-                  realized with HTML and CSS programs, as well as the design
-                  program Adobe XD.
+                  The purpose of this task was to get acquainted with the programming language
+                  SASS and Bootstrap, where I can say that both of these programs greatly facilitate the work of programming.
                 </p>
                 <Button variant="primary">
                   <a href="http://runashost.com/The_YAY_Company/"></a> Visit the

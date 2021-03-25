@@ -19,15 +19,16 @@ function Navbar() {
                 <div id="header">
                     <Container>
                         <Row>
-                            <div exact to="/" className="logo mr-auto">
-                                <img
-                                    width={70}
-                                    height={30}
-                                    src={Logo}
-                                    alt="logo"
-                                />
-                            </div>
-                            {/* <BurgerIcon /> */}
+
+                                <a href="/portfolio/" className="logo mr-auto">
+                                    <img
+                                        width={70}
+                                        height={30}
+                                        src={Logo}
+                                        alt="logo"
+                                    />
+                                </a>
+
                             <Nav />
                         </Row>
                     </Container>

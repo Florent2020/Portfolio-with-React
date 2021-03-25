@@ -18,7 +18,7 @@ function ContactSection() {
                 If you have any questions, please feel free to contact me at
                 contact form!
               </p>
-              <a href="/contact">
+              <a href="/portfolio/contact">
                 <Button variant="primary">Contact</Button>
               </a>
             </div>

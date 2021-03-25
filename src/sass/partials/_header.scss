@@ -1,74 +1,3 @@
-/* Header */
-
-// .bg-light {
-//     background-color: #17516D !important;
-//     padding: 20px 30px;
-//     position: fixed;
-//     width: 100%;
-//     z-index: 999;
-//     box-shadow: 0px 0px 13px #000;
-// }
-
-// .navbar-light .navbar-toggler-icon {
-//     color: $colour-primary !important;
-// }
-
-// .navbar-light .navbar-toggler {
-//     color: $colour-primary !important;
-//     border-color: $colour-primary !important;
-//     border-radius: 0;
-//     padding: 2px 7px;
-//     opacity: 0.5;
-// }
-
-// .navbar-light .navbar-nav {
-//     margin-top: 15px;
-// }
-
-// .navbar-light .navbar-nav .nav-item {
-//     margin: 10px 0;
-// }
-
-// .navbar-light .navbar-nav .nav-link {
-//     text-transform: uppercase;
-//     font-size: 14px;
-//     padding-left: 5px;
-//     padding-right: 5px;
-//     font-weight: 600;
-//     margin: 0;
-//     color: $colour-primary;
-//     letter-spacing: 0.9px;
-//     border-bottom-right-radius: 10px;
-//     border-bottom: 2px solid #000;
-//     border-right: 2px solid #000;
-// }
-
-// .navbar-light .navbar-nav .nav-link.active {
-//     color: $colour-primary;
-// }
-
-// @media only screen and (min-width: $tablet) {
-//     .bg-light {
-//         padding: 20px 0;
-//     }
-//     .navbar-light .navbar-nav {
-//         margin-top: 0;
-//     }
-//     .navbar-light .navbar-nav .nav-item {
-//         margin: 0;
-//     }
-//     .navbar-light .navbar-nav .nav-link {
-//         margin-left: 25px;
-//         border-bottom: none;
-//         border-right: none;
-//         padding: 8px 15px;
-//     }
-//     .navbar-light .navbar-nav .nav-link.active {
-//         background: #000;
-//         border-radius: 3px;
-//     }
-// }
-
 #header {
   background-color: $colour-secondary;
   padding: 20px 30px;
@@ -83,6 +12,8 @@
   & .logo {
     cursor: pointer;
     z-index: 9999;
+    margin-left: 0;
+    padding-left: 0;
   }
   & ul {
     display: none;
@@ -117,7 +48,6 @@
       width: 25px;
       height: 3px;
       background-color: $colour-primary;
-      //   background-color: ${({ open })  => open ? "#ccc" : "$colour-primary" };
       border-radius: 10px;
       transition: all ease 0.4s;
     }

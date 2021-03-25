@@ -19,33 +19,21 @@ function Profile() {
               </p>
               <p>
                 My core skills are HTML, CSS, JavaScript, SASS, Bootstrap,
-                React, WordPress
+                React, WordPress, Adobe XD.
               </p>
               <p>
-                Do you want to know more? Click <a href="/about">here</a> or
-                send me message at:{" "}
-                <a href="/contact">florent.hajdari@hotmail.com</a>
+                Do you want to know more? Click <a href="/portfolio/about">here</a> or
+                send me message at:
+                <a href="/portfolio/contact"> florent.hajdari@hotmail.com</a>
               </p>
               <p>Follow me on:</p>
-              <a
-                href="https://www.facebook.com/florent.hajdari.84"
-                className="fb"
-                target="_blank"
-              >
+              <a href="https://www.facebook.com/florent.hajdari.84" className="fb" target="_blank" >
                 <i className="fab fa-facebook-square"> </i>
               </a>
-              <a
-                href="https://www.linkedin.com/in/fhajdari/"
-                className="linkedin"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/fhajdari/" className="linkedin" target="_blank">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a
-                href="https://github.com/Florent2020/"
-                className="gh"
-                target="_blank"
-              >
+              <a href="https://github.com/Florent2020/" className="gh" target="_blank" >
                 <i className="fab fa-github-square"></i>
               </a>
             </div>

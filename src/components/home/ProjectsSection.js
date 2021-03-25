@@ -40,7 +40,7 @@ function ProjectsSection() {
             <div className="titleText">
               <h4>Letha Shoemaker</h4>
               <p>
-                The project was an assignment from the course Interaction Design
+                The project was an assignment from the exam "Interaction Design"
                 of the second semester, the first year, and was realized with
                 HTML and CSS programs, as well as the design program Adobe XD.
               </p>
@@ -53,9 +53,8 @@ function ProjectsSection() {
             <div className="titleText">
               <h4>SpaceX</h4>
               <p>
-                The project was an assignment from the course Interaction Design
-                of the second semester, the first year, and was realized with
-                HTML and CSS programs, as well as the design program Adobe XD.
+                The project was the final exam of the first year, and was realized with
+                HTML, CSS & JavaScript programs, as well as the design program Adobe XD.
               </p>
             </div>
           </Col>
@@ -64,9 +63,9 @@ function ProjectsSection() {
             <div className="titleText">
               <h4>The YAY Company</h4>
               <p>
-                The project was an assignment from the course Interaction Design
-                of the second semester, the first year, and was realized with
-                HTML and CSS programs, as well as the design program Adobe XD.
+                The project was an assignment from the exam "CSS Frameworks"
+                of the third semester, the second year, and was realized with
+                HTML, SASS & Bootstrap programs.
               </p>
             </div>
           </Col>

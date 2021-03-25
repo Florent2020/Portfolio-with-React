@@ -38,11 +38,11 @@ function Nav() {
                 <div className={status} />
             </div>
 
-            <ul className="nav-ul" className={open} >
-                <li><NavLink exact to="/" className="nav-item">Home</NavLink></li>
-                <li><NavLink to="/About" className="nav-item">About</NavLink></li>
-                <li><NavLink to="/projects" className="nav-item">Projects</NavLink></li>
-                <li><NavLink to="/contact" className="nav-item">Contact</NavLink></li>
+            <ul className={open}>
+                <li onClick={() => setOpen(false) || setStatus(false)}><NavLink exact to="/" className="nav-item">Home</NavLink></li>
+                <li onClick={() => setOpen(false) || setStatus(false)}><NavLink to="/About" className="nav-item">About</NavLink></li>
+                <li onClick={() => setOpen(false) || setStatus(false)}><NavLink to="/projects" className="nav-item">Projects</NavLink></li>
+                <li onClick={() => setOpen(false) || setStatus(false)}><NavLink to="/contact" className="nav-item">Contact</NavLink></li>
             </ul>
         </>
     )

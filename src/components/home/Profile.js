@@ -22,9 +22,9 @@ function Profile() {
                 React, WordPress, Adobe XD.
               </p>
               <p>
-                Do you want to know more? Click <a href="/portfolio/about">here</a> or
+                Do you want to know more? Click <a href="http://runashost.com/portfolio/About">here</a> or
                 send me message at:
-                <a href="/portfolio/contact"> florent.hajdari@hotmail.com</a>
+                <a href="http://runashost.com/portfolio/contact"> florent.hajdari@hotmail.com</a>
               </p>
               <p>Follow me on:</p>
               <a href="https://www.facebook.com/florent.hajdari.84" className="fb" target="_blank" >

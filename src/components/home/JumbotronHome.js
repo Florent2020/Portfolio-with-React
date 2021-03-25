@@ -9,7 +9,7 @@ function JumbotronHome() {
         <h1> I'm Florent!</h1>
         <p> Welcome to my portfolio! </p>
         <p>
-          <a href="/portfolio/projects">
+          <a href="http://runashost.com/portfolio/projects">
             <Button variant="primary">View more!</Button>
           </a>
         </p>
